@@ -62,7 +62,7 @@ class FuzzyImputer(TransformerMixin):
         return self
 
     def transform(
-        self, X: pd.DataFrame, learning_rate: float = 0.1, max_iterations: int = 3
+        self, X: pd.DataFrame, learning_rate: float = 0.1, max_iterations: int = 30
     ) -> pd.DataFrame:
         X = deepcopy(X)
         # Extract data with incomplete rows
