@@ -1,4 +1,4 @@
-### Running
+### Prerequisities
 Required Python version - `3.12.4`
 Requirements - `pip install -r requirements.txt`
 
