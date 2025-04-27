@@ -1,0 +1,5 @@
+scikit-learn==1.6.1
+pandas==2.2.3
+numpy==2.2.4
+tqdm==4.67.1
+loguru==0.7.3
